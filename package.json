@@ -1,0 +1,17 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "Let's chat is a group chat conversation chat app.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Intjar Mansuri",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}

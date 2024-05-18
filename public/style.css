@@ -1,0 +1,19 @@
+.chat-messages-container {
+  flex: 1;
+  overflow-y: scroll;
+  height: 100vh;
+  max-height: calc(100vh - 120px);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/id/1211267500/photo/woman-hand-using-smartphone-and-show-heart-icon-social-media-concept-social-network.jpg?s=612x612&w=0&k=20&c=dHXlGlHwF8A9AbuLrYDQPDOf2pRvy2GnYdCvi2tIrq4=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
