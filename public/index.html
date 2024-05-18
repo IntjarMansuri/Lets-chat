@@ -19,14 +19,11 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <body class="flex items-center justify-center">
     <!-- Login -->
-    <div
-      class="bg-gray-100 flex justify-center items-center h-full rounded-lg"
-      id="container"
-    >
-      <div class="chat-container max-w-md bg-white p-8 rounded-lg shadow-lg">
-        <h2 class="text-2xl font-bold mb-4 self-center">
+    <div class="flex justify-center items-center" id="container">
+      <div class="flex flex-col max-w-md bg-white p-8 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-bold mb-4 justify-center">
           Welcome to Let's Chat
         </h2>
         <hr class="mb-4" />
@@ -47,7 +44,7 @@
 
     <!-- Chats -->
     <div
-      class="max-w-lg sm:max-w-sm w-full mx-auto flex flex-col shadow-lg rounded-lg"
+      class="max-w-lg sm:max-w-sm w-full mx-auto flex flex-col"
       id="container"
     >
       <div
@@ -59,7 +56,7 @@
         </div>
       </div>
       <div id="chatMessages" class="p-4 chat-messages-container">
-        <p class="flex justify-center">Let's chat</p>
+        <p class="flex justify-center">start conversation</p>
         <div class="flex flex-col mb-1">
           <!-- <div
             class="self-end bg-green-200 text-gray-800 px-2 py-1 rounded-lg mt-1 max-w-xs"
@@ -74,19 +71,6 @@
             I'm good, thanks! How about you?
           </div> -->
           <span class="self-start text-sm text-gray-600 mt-1"></span>
-        </div>
-        <div id="videoContainer" class="hidden flex flex-col items-center">
-          <video
-            id="video"
-            class="border border-gray-300 rounded mb-2"
-            autoplay
-          ></video>
-          <button
-            id="captureButton"
-            class="p-2 rounded bg-red-500 text-white hover:bg-red-600"
-          >
-            Capture
-          </button>
         </div>
       </div>
       <div class="flex items-center border-t p-2 bg-white">
