@@ -31,13 +31,7 @@ socket.on("received-msg", (data) => {
   newMessage.classList.add("flex", "flex-col", "mb-2");
 
   const messageContent = document.createElement("div");
-  messageContent.classList.add(
-    "px-2",
-    "py-1",
-    "rounded-lg",
-    "mt-1",
-    "max-w-xs"
-  );
+  messageContent.classList.add("p-2", "rounded-lg", "mt-1", "max-w-xs");
 
   if (data.id === socket.id) {
     // If the message is yours
