@@ -2,6 +2,9 @@
 
 Welcome to **Let's Chat** - a fully responsive group chat application designed for both desktop and mobile devices. Users can simply log in with their name and start conversing in real-time with others. The application ensures that the names of users replying to messages are displayed, enhancing the chat experience.
 
+## Live Demo
+Check out the live demo of the project **[Let's Chat](https://lets-chat-a-group-chat-application.onrender.com/).**
+
 ## Features
 
 - **Fully Responsive**: Optimized for both desktop and mobile devices.
@@ -22,4 +25,12 @@ Welcome to **Let's Chat** - a fully responsive group chat application designed f
 3. **View Messages**: See real-time messages from all users in the group, with each message showing the sender's name.
 
 ## Screenshot
+
+### Login Page
+![Screenshot-1](https://github.com/IntjarMansuri/Lets-chat/assets/139264242/b0536629-8839-40af-bd8c-f85a4da27b04)
+
+### Chat Interface
+![Screenshot-2](https://github.com/IntjarMansuri/Lets-chat/assets/139264242/0bbcd413-5aea-46ec-9660-b3dd94b01f36)
+
+
 
